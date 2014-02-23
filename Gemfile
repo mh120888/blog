@@ -15,4 +15,5 @@ gem 'jquery-rails'
 group :test, :development do
   gem 'rails_db_info'
   gem 'rspec-rails'
+  gem 'shoulda-matchers'
 end
