@@ -6,6 +6,7 @@ require 'rspec/autorun'
 require 'rspec/rails'
 require 'rails_db_info'
 require 'shoulda-matchers'
+require 'factory_girl_rails'
 
 Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 
